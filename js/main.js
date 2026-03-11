@@ -15,12 +15,12 @@ const matchsEffectues = [
     { date: "06/12/2025", adversaire: "Paris 13 Atletico", competition: "Amical", lieu: "Domicile", status: "termine" },
     { date: "13/12/2025", adversaire: "Paris SC", competition: "Amical", lieu: "Domicile", status: "termine" },
     { date: "20/12/2025", adversaire: "US Fontenay", competition: "Amical", lieu: "Domicile", status: "termine" },
-    { date: "10/01/2026", adversaire: "Entre nous U8", competition: "Amical", lieu: "Domicile", status: "a-venir" },
-    { date: "17/01/2026", adversaire: "ES Parisienne", competition: "Amical", lieu: "Domicile", status: "a-venir" },
-    { date: "24/01/2026", adversaire: "Bussy", competition: "Amical", lieu: "Domicile", status: "a-venir" },
-    { date: "31/01/2026", adversaire: "CO Vincennes", competition: "Amical", lieu: "Domicile", status: "a-venir" },
-    { date: "07/02/2026", adversaire: "Maison Alfort", competition: "Amical", lieu: "Extérieur", status: "a-venir" },
-    { date: "14/02/2026", adversaire: "Entre nous U8", competition: "Amical", lieu: "Domicile", status: "a-venir" },
+    { date: "10/01/2026", adversaire: "Entre nous U8", competition: "Amical", lieu: "Domicile", status: "termine" },
+    { date: "17/01/2026", adversaire: "ES Parisienne", competition: "Amical", lieu: "Domicile", status: "termine" },
+    { date: "24/01/2026", adversaire: "Bussy", competition: "Amical", lieu: "Domicile", status: "termine" },
+    { date: "31/01/2026", adversaire: "CO Vincennes", competition: "Amical", lieu: "Domicile", status: "termine" },
+    { date: "07/02/2026", adversaire: "Maison Alfort", competition: "Amical", lieu: "Extérieur", status: "termine" },
+    { date: "14/02/2026", adversaire: "Entre nous U8", competition: "Amical", lieu: "Domicile", status: "termine" },
     { date: "21/02/2026", adversaire: "Paris 13 Atletico", competition: "Amical", lieu: "Extérieur", status: "a-venir" }
 ];
 
@@ -147,3 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
         themesContainer.appendChild(themeDiv);
     });
 });
+// Utiliser localStorage pour simuler des stats
+const count = localStorage.getItem('visitorCount') || 0;
+localStorage.setItem('visitorCount', Number(count) + 1);
+document.getElementById('visitor-count').textContent = Number(count) + 1;

@@ -425,3 +425,150 @@ h1 {
         gap: 1rem;
     }
 }
+.newsletter-container {
+            max-width: 600px;
+            margin: 4rem auto;
+            padding: 2rem;
+        }
+        
+        .newsletter-form {
+            background: var(--black-light);
+            border: 2px solid #333;
+            border-radius: 30px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 30px -10px rgba(0,0,0,0.8);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 1rem;
+            background: #222;
+            border: 2px solid #333;
+            border-radius: 15px;
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--gold);
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .checkbox-group input {
+            width: auto;
+        }
+        
+        .horaire-info {
+            background: #1a1a1a;
+            padding: 1rem;
+            border-radius: 15px;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--gold);
+        }
+        
+        .horaire-info i {
+            color: var(--gold);
+            margin-right: 8px;
+        }
+        
+        .horaire-info strong {
+            color: var(--gold);
+        }
+        
+        .security-badge {
+            display: flex;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background: #111;
+            border-radius: 15px;
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 1.2rem;
+            background: var(--gold);
+            border: none;
+            border-radius: 50px;
+            color: var(--black);
+            font-size: 1.2rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-submit:hover {
+            background: #b8960f;
+            transform: scale(1.02);
+        }
+        
+        .btn-submit:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+        
+        .error-message {
+            color: #ff4444;
+            font-size: 0.9rem;
+            margin-top: 0.3rem;
+            display: none;
+        }
+        
+        .success-message {
+            color: #00c851;
+            font-size: 1rem;
+            padding: 1rem;
+            background: #1a2a1a;
+            border-radius: 15px;
+            display: none;
+        }
+        
+        .antispam {
+            display: none;
+        }
+        .newsletter-footer {
+    text-align: center;
+}
+
+.newsletter-footer .btn-gold {
+    background: transparent;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.newsletter-footer .btn-gold:hover {
+    background: var(--gold);
+    color: var(--black);
+    transform: scale(1.05);
+}
+
+.newsletter-footer .btn-gold i {
+    margin-right: 8px;
+}

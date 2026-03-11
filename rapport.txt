@@ -1,0 +1,20 @@
+# Rapport technique - Site OFC Couronnes
+
+## Infrastructure
+- Hébergement : GitHub Pages (CDN mondial)
+- Domaine : albertobrt.github.io
+- HTTPS : Activé automatiquement
+
+## Déploiement
+- Pipeline GitHub Actions : build → test → deploy
+- Déclencheur : push sur main
+
+## Sécurité
+- Headers de sécurité configurés
+- Pas de données sensibles stockées
+- Validation des entrées utilisateur (formulaire contact)
+
+## Performances
+- Images optimisées (WebP)
+- Code minifié
+- Score Lighthouse > 90
