@@ -147,7 +147,3 @@ document.addEventListener('DOMContentLoaded', function() {
         themesContainer.appendChild(themeDiv);
     });
 });
-// Utiliser localStorage pour simuler des stats
-const count = localStorage.getItem('visitorCount') || 0;
-localStorage.setItem('visitorCount', Number(count) + 1);
-document.getElementById('visitor-count').textContent = Number(count) + 1;
