@@ -21,7 +21,9 @@ const matchsEffectues = [
     { date: "31/01/2026", adversaire: "CO Vincennes", competition: "Amical", lieu: "Domicile", status: "termine" },
     { date: "07/02/2026", adversaire: "Maison Alfort", competition: "Amical", lieu: "Extérieur", status: "termine" },
     { date: "14/02/2026", adversaire: "Entre nous U8", competition: "Amical", lieu: "Domicile", status: "termine" },
-    { date: "21/02/2026", adversaire: "Paris 13 Atletico", competition: "Amical", lieu: "Extérieur", status: "a-venir" }
+    { date: "21/02/2026", adversaire: "Paris 13 Atletico", competition: "Amical", lieu: "Extérieur", status: "termine" },
+    { date: "14/03/2026", adversaire: "Olympique de Pantin", competition: "Amical", lieu: "Extérieur", status: "termine" },
+    { date: "14/03/2026", adversaire: "Montreuil Souvenir", competition: "Amical", lieu: "Extérieur", status: "termine" }
 ];
 
 const themesEntrainement = [
